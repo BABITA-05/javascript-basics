@@ -19,7 +19,7 @@ console.log(isEven(2));
 
 //4
 function capitalize(str){
-    return str.charAt(0).toUpperCase()+str.slice(1);
+    return str.charAt(0).toUpperCase()+str.slice(1); //slice just convert word in a letter
 }
 console.log(capitalize("bAbita"));
 
